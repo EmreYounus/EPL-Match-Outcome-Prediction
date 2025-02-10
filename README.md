@@ -41,3 +41,5 @@ For this project, I’m using historical match data from [Football-Data.co.uk](h
 3. Install the necessary packages:
    ```bash
    pip install pandas numpy scikit-learn
+4. run the script
+   python match_outcome_prediction.py
