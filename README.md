@@ -43,3 +43,18 @@ For this project, I’m using historical match data from [Football-Data.co.uk](h
    pip install pandas numpy scikit-learn
 4. run the script
    `python match_outcome_prediction.py`
+
+You’ll see cross-validation results and details about the best model, along with test set accuracy, a confusion matrix, and ROC AUC scores.
+
+## A Peek Under the Hood
+
+- Data Processing: The script loads and sorts the data by date, then creates some pre-match features by computing cumulative averages.
+- Modeling: It tests out three models with cross-validation and picks the best one.
+- Evaluation: The output includes key metrics to help you understand the model’s performance.
+  
+## About Me
+
+I’m Younus Emre, a passionate data scientist and football fan. I built this project to explore how machine learning can unlock insights from match data. I hope you enjoy checking it out!
+
+## License
+This project is provided for educational purposes. Feel free to use and adapt the code.
